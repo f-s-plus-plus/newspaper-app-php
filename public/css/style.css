@@ -1,0 +1,33 @@
+* {
+    font-family: Raleway;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 1px 0 rgba(70,70,70,.1);
+}
+
+a {
+    color: #505050;
+    padding: 0 .5rem;
+    text-decoration: none;
+}
+
+.form-article {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+input {
+    margin: .5rem 0;
+}
+
+textarea {
+    margin: .5rem 0;
+}
